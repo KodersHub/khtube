@@ -7,6 +7,7 @@ setuptools.setup(
     name="khtube", # Replace with your own username
     version="0.9.0",
     author="Kodershub",
+    scripts=["khtube.py"],
     author_email="furqan.ali9500@gmail.com",
     description="A youtube video downloader",
     long_description=long_description,

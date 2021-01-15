@@ -32,8 +32,15 @@ khtube.single_video(link, quality, verbose, output = "./Videos/", verbose)
 * `verbose` is being used to express details in more words. It can be `1`, `2` or `3` depending upon your needs.
 * `output` is the saving directory of your downloaded YouTube video. If you don't pass it it will save in your default location.
 
-Download your first YouTube video
+Using khtube on windows
 =======
+
+In windows, make sure that if you don't have ffmpeg pre-installed in your computer then do install it first by 
+visiting the link : https://ffmpeg.org/download.html
+
+Download windows .exe file by clicking "Windows builds from gyan.dev". After downloading go to bin folder, copy ffmpeg.exe and
+paste it in the folder in which you are actually runing the main python code and you are good to go.
+
 
 Contribute
 ==========
