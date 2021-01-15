@@ -11,7 +11,7 @@ setuptools.setup(
     description="A youtube video downloader",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/pypa/sampleproject",
+    url="https://github.com/KodersHub/khtube.git",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
