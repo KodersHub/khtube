@@ -22,7 +22,7 @@ For installation::
 Using khtube on Windows
 =======
 
-In windows, make sure that if you don't have ffmpeg pre-installed in your computer then do install it first by following the link : https://ffmpeg.org/download.html
+In windows, make sure that if you don't have ffmpeg pre-installed in your computer then do install it first by visiting the link : https://ffmpeg.org/download.html
 
 Download .exe file by clicking "Windows builds from gyan.dev". After downloading go to bin folder, copy ffmpeg.exe and paste it in the folder in which you are actually runing the main python code and you are good to go.
 

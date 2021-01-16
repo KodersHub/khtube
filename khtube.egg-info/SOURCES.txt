@@ -1,7 +1,11 @@
+MANIFEST.in
 README.md
-khtube.py
+requirements.txt
 setup.py
+khtube/__init__.py
+khtube/khtube.py
 khtube.egg-info/PKG-INFO
 khtube.egg-info/SOURCES.txt
 khtube.egg-info/dependency_links.txt
+khtube.egg-info/requires.txt
 khtube.egg-info/top_level.txt

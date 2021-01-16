@@ -1,7 +1,7 @@
 # A way to import 
-import sys
+# import sys
 # insert at 1, 0 is the script path (or '' in REPL)
-sys.path.insert(1, '/home/furqan/.pyenv/versions/3.8.5/lib/python3.8/site-packages')
+# sys.path.insert(1, '/home/furqan/.pyenv/versions/3.8.5/lib/python3.8/site-packages')
 import youtube_dl, subprocess
 
 #pip install --user youtube-dl
