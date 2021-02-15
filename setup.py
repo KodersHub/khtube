@@ -14,7 +14,7 @@ setuptools.setup(
     long_description_content_type="text/markdown",
     url="https://github.com/KodersHub/khtube.git",
     packages=setuptools.find_packages(),
-    install_requires=["youtube_dl"],
+    install_requires=["youtube_dl, googledrivedownloader"],
     classifiers=[
         "Programming Language :: Python :: 3",
         "License :: OSI Approved :: MIT License",
