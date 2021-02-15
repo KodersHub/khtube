@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="khtube", # Replace with your own username
-    version="0.9.22",
+    version="0.9.25",
     author="Kodershub",
     author_email="furqan.ali9500@gmail.com",
     description="A youtube video downloader",

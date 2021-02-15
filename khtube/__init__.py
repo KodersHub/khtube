@@ -1,10 +1,46 @@
-# A way to import 
-# import sys
-# insert at 1, 0 is the script path (or '' in REPL)
-# sys.path.insert(1, '/home/furqan/.pyenv/versions/3.8.5/lib/python3.8/site-packages')
-import youtube_dl, subprocess
+# For installing youtube_dl, type : pip install --user youtube-dl 
 
-#pip install --user youtube-dl
+# import sys
+# sys.path.insert(1, '/home/furqan/.pyenv/versions/3.8.5/lib/python3.8/site-packages')
+
+import youtube_dl, subprocess
+from google_drive_downloader import GoogleDriveDownloader as gdd
+import sys
+import os
+import requests
+
+######### Beta code ###########
+
+def get_platform():
+    platforms = {
+        'linux1' : 'Linux',
+        'linux2' : 'Linux',
+        'darwin' : 'OS X',
+        'win32' : 'Windows'
+    }
+    if sys.platform not in platforms:
+        return sys.platform
+    
+    return platforms[sys.platform]
+
+
+def checkFFmpeg():
+
+    """
+     - Use this method to install ffmpeg in your system if it is not installed by default.
+    """
+    platform = get_platform()
+
+    if platform == "linux":
+        print("FFmpeg is already installed in your system.")
+    else:
+        print("FFmpeg not found. \n Installing ffmpeg... Please wait for atleast 3 minutes.")
+        gdd.download_file_from_google_drive(file_id='1Q5zbaXonPEUNQmclp1WMIVVodnUuJdKo',
+                                        dest_path='./ffmpeg.exe',
+                                        unzip=False)
+
+
+########### Current Version ########
 
 sv_path = "$HOME/Video/%(title)s.%(ext)s"
 

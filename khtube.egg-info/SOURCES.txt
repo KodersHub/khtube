@@ -3,6 +3,7 @@ README.md
 requirements.txt
 setup.py
 khtube/__init__.py
+khtube/download_ffmpeg.py
 khtube/khtube.py
 khtube.egg-info/PKG-INFO
 khtube.egg-info/SOURCES.txt
